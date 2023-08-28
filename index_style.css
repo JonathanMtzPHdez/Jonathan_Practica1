@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+div#general{
+    margin: auto;
+    width: 700px;
+    height: 250px;
+    position: relative;
+    background-color: darkgrey;
+}
+
+div#sub1{
+    overflow:hidden;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+div#sub2{
+    overflow:hidden;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+div#D_num1,D_num3{
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    width: 450px;
+    height: 50px;
+    
+}
+
+div#D_num2,D_num4{
+    float: left;
+    margin-top: 20px;
+    width: 450px;
+    height: 50px;
+}

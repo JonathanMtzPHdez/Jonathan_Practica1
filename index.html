@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Calculadora básica</title>
+    <link rel="stylesheet" type="text/css" href="index_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="alert alert-info mt-5" role="alert">
+        <h1 class="text-center">PRACTICA 1 - CALCULADORA BASICA</h1>
+    </div>
+
+    <div class="" id="general">
+        <form id="miFormulario" name="">
+        <div id="sub1">
+            <div class="" id="D_num1"> <label class="">Número 1: </label> </div>
+            <div class="" id="D_num2">
+                <input type="number" class="form-control" id="n1" autofocus placeholder="Digite un número">
+            </div>
+        </div>
+
+        <div id="sub2">
+            <div class="" id="D_num3"><label>Número 2: </label></div>
+            <div class="" id="D_num4">
+                <input type="number" class="form-control" name="" id="n2" autofocus placeholder="Digite otro número">
+            </div>
+        </div>
+    </form>
+        <div>
+            <button type="button" onclick="sumar();">Sumar</button>
+            <button type="button" onclick="restar();">Restar</button>
+            <button type="button" onclick="multiplicar();">Multiplicar</button>
+            <button type="button" onclick="dividir();">Dividir</button>
+        </div>
+        
+        <div>
+            <p>El resultado es: <span id="el-resultado"></span></p>
+        </div>
+
+        <div>
+            <button type="button" onclick="limpiar();">Limpiar</button>
+        </div>
+    
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="fun.js"></script>
+</body>
+</html>
